@@ -1,1 +1,8 @@
 @import "tailwindcss";
+@font-face {
+font-family: 'Anek Tamil Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Anek Tamil Medium'), url(/driven/public/AnekTamil[wdth\,wght].woff) format('woff');
+}
+
