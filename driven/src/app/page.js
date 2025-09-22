@@ -1,13 +1,11 @@
 import React from 'react'
+import Header from './components/Header'
 
 const page = () => {
   return (
-    <div>
-      lets Code!!!
-      hello
-      world
-      123   
-    </div>
+    <>
+    <header />
+    </>
   )
 }
 
