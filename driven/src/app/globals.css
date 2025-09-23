@@ -6,3 +6,9 @@ font-weight: normal;
 src: local('Anek Tamil Medium'), url(/driven/public/AnekTamil[wdth\,wght].woff) format('woff');
 }
 
+
+.header {
+    justify-content: space-between;
+}
+
+
