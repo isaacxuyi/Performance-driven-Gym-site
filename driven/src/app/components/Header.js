@@ -18,7 +18,7 @@ export default function Header() {
               <li>
                 <button
                   style={{ background: '#808DFD', color: 'black' }}
-                  className="py-2 px-6 rounded-lg  transition-colors duration-200 cursor-pointer hover:brightness-90"
+                  className="py-2 px-6 rounded-lg  transition-colors duration-200 cursor-pointer hover:brightness-90 gap-4"
                 >
                   RESERVE YOUR SPOT
                 </button>

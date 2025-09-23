@@ -11,4 +11,8 @@ src: local('Anek Tamil Medium'), url(/driven/public/AnekTamil[wdth\,wght].woff) 
     justify-content: space-between;
 }
 
+nav ol {
+    gap: 4rem;
+}
+
 
