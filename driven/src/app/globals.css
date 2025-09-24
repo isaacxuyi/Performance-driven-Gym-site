@@ -1,18 +1,40 @@
 @import "tailwindcss";
 @font-face {
-font-family: 'Anek Tamil Medium';
-font-style: normal;
-font-weight: normal;
-src: local('Anek Tamil Medium'), url(/driven/public/AnekTamil[wdth\,wght].woff) format('woff');
+  font-family: 'Anek Tamil Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Anek Tamil Medium'), url(/driven/public/AnekTamil[wdth\,wght].woff) format('woff');
 }
 
+body {
+  flex-grow: 0;
+  flex-shrink: 0;
+  min-width: 320px; /* fallback for very small screens */
+}
 
-.header {
-    justify-content: space-between;
+/* Small screens (sm) */
+@media (min-width: 640px) {
+  body {
+    min-width: 640px;
+  }
+}
+
+/* Medium screens (md) */
+@media (min-width: 768px) {
+  body {
+    min-width: 768px;
+  }
+}
+
+/* Large screens (lg) */
+@media (min-width: 1024px) {
+  body {
+    min-width: 1024px;
+  }
 }
 
 nav ol {
-    gap: 4rem;
+  gap: 4rem;
 }
 
 
